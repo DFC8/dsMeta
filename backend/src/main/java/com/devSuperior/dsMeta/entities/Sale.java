@@ -15,13 +15,29 @@ public class Sale {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String sallerName;
+	private String sellerName;
 	private Integer visited;
 	private Integer deals;
-	private Double amout;
+	private Double amount;
 	private LocalDate date;
 
 	public Sale() {
+	}
+
+	public String getSellerName() {
+		return sellerName;
+	}
+
+	public Double getAmount() {
+		return amount;
+	}
+
+	public void setAmount(Double amount) {
+		this.amount = amount;
+	}
+
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
 	}
 
 	public Long getId() {
@@ -30,14 +46,6 @@ public class Sale {
 
 	public void setId(Long id) {
 		this.id = id;
-	}
-
-	public String getSallerName() {
-		return sallerName;
-	}
-
-	public void setSallerName(String sallerName) {
-		this.sallerName = sallerName;
 	}
 
 	public Integer getVisited() {
