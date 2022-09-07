@@ -64,14 +64,6 @@ public class Sale {
 		this.deals = deals;
 	}
 
-	public Double getAmout() {
-		return amout;
-	}
-
-	public void setAmout(Double amout) {
-		this.amout = amout;
-	}
-
 	public LocalDate getDate() {
 		return date;
 	}
