@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import NotficationButton from '../NotificationButton';
+import NotificationButton from '../NotificationButton';
 import './styles.css';
 
 function SalesCard() {
@@ -61,7 +61,7 @@ function SalesCard() {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="dsmeta-red-btn-container">
-                                    <NotficationButton />
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -74,7 +74,7 @@ function SalesCard() {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="dsmeta-red-btn-container">
-                                    <NotficationButton />
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -87,7 +87,7 @@ function SalesCard() {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="dsmeta-red-btn-container">
-                                    <NotficationButton />
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
